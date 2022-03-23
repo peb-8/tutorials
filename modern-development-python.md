@@ -7,7 +7,8 @@
 - Garanted compatibility of your packages with the chosen docker image distribution
   
 ## Prerequises :
-- On Windows : Docker desktop installed
+- Virtualization enabled on your UEFI/BIOS
+- On Windows & Mac OS : Docker desktop installed
 - On linux : docker & docker-compose installed
 - At least 8GB of RAM (16GB for more confort)
 - Visual studio code with Remote-Containers extension installed
