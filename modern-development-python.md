@@ -2,7 +2,8 @@
 
 ## Benefits :
 - No more virtual environment needed (like virtualenv or pipenv)
-- Easy upgrade of Python version
+- Easy installation/upgrade of Python version
+- Easy setup of external services like a PostgreSQL database server
 - Garanted compatibility of your packages with the chosen docker image distribution
   
 ## Prerequises :
@@ -22,4 +23,7 @@ CTRL + SHIFT + P > Remote-Container: Add Development Container Configuration fil
 ## 3. Reopen in container :
 CTRL + SHIFT + P > Remote-Container: Open folder in container...
 
-## 4. Enjoy !
+## 4. Eventually change the linter :
+CTRL + SHIFT + P > Python: Select Linter > flake8
+
+## That's all ! Enjoy it :)
