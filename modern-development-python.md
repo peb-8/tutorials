@@ -19,12 +19,17 @@ or
 - Start from scratch : `mkdir <project-name> & cd <project-name> & git init & code .`
 
 ## 2. Add the development container configuration files :
-CTRL + SHIFT + P > Remote-Container: Add Development Container Configuration files... > Python 3 > 3.10 > none > OK
+- `CTRL + SHIFT + P` > Remote-Container: Add Development Container Configuration files... > Python 3 > 3.10 > none > OK
 
 ## 3. Reopen in container :
-CTRL + SHIFT + P > Remote-Container: Open folder in container...
+- Reopen in container (if you see the popup)
+or
+- `CTRL + SHIFT + P` > Remote-Container: Open folder in container...
 
 ## 4. Eventually change the linter :
-CTRL + SHIFT + P > Python: Select Linter > flake8
+- `CTRL + SHIFT + P` > Python: Select Linter > flake8
+
+## 5. Run your code :
+- `python3 <file>`
 
 ## That's all ! Enjoy it :)
