@@ -14,9 +14,9 @@
 - Visual studio code with Remote-Containers extension installed
   
 ## 1. Create the project :
-- Clone from a repo `git clone <repo URL> & cd <project-name> & code .`
+- Clone from a repo `git clone <repo URL> && cd <project-name> && code .`
 or
-- Start from scratch : `mkdir <project-name> & cd <project-name> & git init & code .`
+- Start from scratch : `mkdir <project-name> && cd <project-name> && git init & code .`
 
 ## 2. Add the development container configuration files :
 - `CTRL + SHIFT + P` > Remote-Container: Add Development Container Configuration files... > Python 3 > 3.10 > none > OK
